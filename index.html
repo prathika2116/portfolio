@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        /* Add your media query CSS here */
+        @media (max-width: 768px) {
+            /* CSS styles for screens with a maximum width of 768px */
+            /* Adjust the styles as per your requirements */
+            body {
+                font-size: 14px;
+            }
+            
+            /* Add more CSS styles here */
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="con">
+            <nav>
+                <img src="logo.png" style="width: 150px;height: 100px;" class="logo">
+                <ul>
+                    <li><a href='#header'>Home</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#portfolio'>Portfolio</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Prathika</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------about------------->
+    <div id="about">
+        <div class="con">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="users1.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Enthusiastic professional with good interpersonal, problem solving and technical skills. I 
+                        intend to learn and grow professionally while also adding value to the company. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web Developer</span><br>
+                                Designing web applications and websites
+                            </li>
+                            <li>
+                                <span>Java Developer</span><br>
+                                Developing APIs using spring framework
+                            </li>
+                            <li>
+                                <span>Database Analyst</span><br>
+                                working with database,queries and data visulasing tools like powerBI 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>SIMPLY LOCAL, October 2021 - November 2021 (20 days)</span><br>
+                                Day to day task include reviewing simply local application. 
+                                Suggestions to improvise app UI UX design. 
+                                Email report daily on the basis of task given daily 
+                            </li>
+                            <li>
+                                <span>FAUCONE BUSINESS SOLUTIONS, March 2022 - July 2022 (3 months)</span><br>
+                                    shortlisting various job profiles Conducting Level 1 
+                                    interviews Gained skills in selection
+                                     process Conducting telephonic interviews
+                            </li>
+                            <li>
+                                <span>TITAN WATCH DIVISION, December 2022(6 days)</span><br>
+                                IT admins -learned about the Software’s used in the company to manage and control all systems in the company. 
+                                Networking concepts, SAP, OS installation, IP configurations.
+                            </li>
+                            <li>
+                                <span>TITAN JEWELLERY DIVISION, June 2023(23days)</span><br>
+                                Learned machine learning and did Loan prediction project.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2018</span><br>
+                                Asian Christian High School 10th Hosur
+                            </li>
+                            <li>
+                                <span>2020</span><br>
+                                Asian Christian High School 12th-computer science Hosur
+                            </li>
+                            <li>
+                                <span>2024-current</span><br>
+                               Adhiyamaan College Of Engineering Hosur
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------potfolio-->
+    <div id="portfolio">
+        <div class="con">
+            <h1 class="sub-title">My projects</h1>
+             <ul>
+                <li><span>calculator</span>
+                <a href="https://github.com/prathika2116/calculator.git" target="_blank">See code</a></li>
+                <li><span>TIC TAC TOE</span>
+                    <a href="https://github.com/prathika2116/git-github.com-prathika2116-tictactoe.git" target="_blank">See code</a></li>
+               <li><span>Loan Prediction</span>
+                 <a href="https://github.com/prathika2116/loanprediction.git" target="_blank">See code</a></li>
+                 <li><span> 3D animation</span>
+                    <a href="https://github.com/prathika2116/3d-animation.git" target="_blank">See code</a></li>
+                <li><span>sqlite queries</span>
+                    <a href="https://github.com/prathika2116/sqlite.git" target="_blank">See code</a></li>
+                <li><span>counter</span>
+                     <a href="https://github.com/prathika2116/counter.git" target="_blank">See code</a></li>
+                <li><span>shooting bullet game</span>
+                    <a href="https://github.com/prathika2116/https---github.com-prathika2116-shooting-bullet.git" target="_blank">See code</a></li>
+               <li><span>snake game</span>
+                    <a href="https://github.com/prathika2116/git-github.com-prathika2116-snakegame.git" target="_blank">See code</a></li>
+               <li><span>color flipper</span>
+                    <a href="https://github.com/prathika2116/colorflipper.git" target="_blank">See code</a></li>
+                <li><span>Landing Page</span>
+                    <a href="https://github.com/prathika2116/oibsip_task01.git" target="_blank">See code</a></li>
+              <li><span>Stop watch</span>
+                    <a href="https://github.com/prathika2116/stopwatch.git " target="_blank">See code</a></li>
+             </ul>
+          </div>
+        </div>
+    </div>
+    <!---------contact--------->
+    <div id="contact">
+<div class="con">              
+    <div class="contact-left"></div>
+                <h1 class="sub-title">Contact Me</h1>
+                <p>csb48prathika@gmail.com</p>
+                <p>1234567890</p>
+            </div>  
+            
+    
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
